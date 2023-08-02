@@ -11,7 +11,7 @@ class MyConverter {
   }
 
   // TODO: Crea un [setter] y [getter] para [binary] .
-  set binary(String binary){
+  void set binary(String binary){
     _binary = binary;
   }
 
@@ -21,7 +21,7 @@ class MyConverter {
 
   // TODO: Crea un [setter] y [getter] para [decimal].
 
-    set decimal(String decimal){
+  void set decimal(String decimal){
     _decimal = decimal;
   }
 
